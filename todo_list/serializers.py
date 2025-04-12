@@ -6,6 +6,3 @@ class TaskSerializer(serializers.ModelSerializer):
     class Meta:
         model = Task
         fields = '__all__'
-
-    def __str__(self):
-        return self.title
